@@ -1,9 +1,38 @@
-object pepita {
-  var energy = 100
+object rojo {
+    method esFuerte()= true
+}
 
-  method energy() = energy
+object verde {
+    method esFuerte()= true
+} 
 
-  method fly(minutes) {
-    energy = energy - minutes * 3
-  }
+object celeste  {
+    method esFuerte()= false
+}
+
+object pardo {
+    method esFuerte()= false
+}
+
+
+
+// materiales 
+object cobre  {
+    method esBrillante()= true
+}
+
+object vidrio {
+     method esBrillante()= true
+}
+
+object lino {
+     method esBrillante()= false
+}
+
+object madera {
+     method esBrillante()= false
+}
+
+object cuero {
+     method esBrillante()= false
 }
